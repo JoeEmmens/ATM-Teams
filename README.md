@@ -12,7 +12,9 @@ This repository will do the following
       * Outputs: 
         * descriptions.csv - a text file containing the brief summary for each of the selected patents, in the order of the list of selected patents.
       
-    Comments: Data taken from DISCERN and available at [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4320782.svg)](https://doi.org/10.5281/zenodo.4320782)
+    Comments: Data taken from DISCERN and available at: 
+
+![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4320782.svg)
 
 
   
