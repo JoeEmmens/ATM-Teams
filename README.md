@@ -69,19 +69,42 @@ This repository will do the following
    
   5) Build inventor x patent panel
       
-      Notebook name:
+      Notebook name: BuildPanel
         * Inputs
           * document_data
+          Then a collection of external data sources
+            * https://patentsview.org/download/data-download-tables 
+              * Inventor gender, assignment date, citations etc.
+            * Market value - KDSS paper
         * Outputs
           * inventor_patent_panel
         
   6) Analyse these results
   
-        Notebook name: 
+        Notebook name: AnalysePanel
         * Inputs:
           * inventor_patent_panel
         * Outputs:
-          * Results:
+          * Results: Iteration.html - A notebook file recording a set of simple descriptive statitics
+           
+           
+           
+Replication Instructions
+
+ 0) For now keep the baseline corpus constant - with the same cleaning. Check this out later.
+ 1) Run the AT model and create statistics : TODO change concat to faster method!
+ 2) Replicate notebook results and save
+  * HTML file of notebook output
+  * Convergence plot
+  * Log file
+  * Wordclouds in seperate folder
+           
+           
+           
+           
+           
+           
+           
            
   
 All code and results will be written in jupyter notebooks.
