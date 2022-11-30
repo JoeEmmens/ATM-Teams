@@ -20,7 +20,7 @@ This repository will do the following
   
   2) Clean this data and build a corpus to estiamte an LDA 
     
-      Notebook name: build_corpus
+      Notebook name: BuildCorpus
       * Inputs:
         * selected_patents.p - generated in extract_descriptions
         * descriptions.csv - generated in extract_descriptions
